@@ -16,69 +16,107 @@
 </head>
 <body>
   <header>
-    Social Media Dashboard
-    Total Followers: 23,004
-
-    Dark Mode
+    <div id="headerText">
+      <div>Social Media Dashboard</div>
+      <span>Total Followers: 23,004</span>
+    </div>
+    <hr />
+    <div id="headerToggle">
+      <div id="darkMode">Dark Mode</div>
+      <div id="toggler"></div>
+    </div>  
   </header>
   
+  <div id="followers">
 
-  @nathanf
-  1987
-  Followers
-  12 Today
+    <div id="fb-followers" class="follow-item">
+      <img src="./images/icon-facebook.svg" alt="fb-icon">
+      <div class="platform/handle">@nathanf</div>
+      <div class="follower-count">1987</div>
+      <div class="followers/subscribers">FOLLOWERS</div>
+      <div class="posChange">12 Today</div>
+    </div>
 
-  @nathanf
-  1044
-  Followers
-  99 Today
+    <div id="twitter-followers" class="follow-item">
+      <img src="./images/icon-twitter.svg" alt="twitter-icon">
+      <div class="platform/handle">@nathanf</div>
+      <div class="follower-count">1044</div>
+      <div class="followers/subscribers">FOLLOWERS</div>
+      <div class="posChange">99 Today</div>
+    </div>
 
-  @realnathanf
-  11k
-  Followers
-  1099 Today
+    <div id="ig-followers" class="follow-item">
+      <img src="./images/icon-instagram.svg" alt="ig-icon">
+      <div class="platform/handle">@realnathanf</div>
+      <div class="follower-count">11K</div>
+      <div class="followers/subscribers">FOLLOWERS</div>
+      <div class="posChange">1099 Today</div>   
+    </div>
 
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
+    <div id="yt-subs" class="follow-item">
+      <img src="./images/icon-youtube.svg" alt="yt-icon">
+      <div class="platform/handle">Nathan F.</div>
+      <div class="follower-count">8239</div>
+      <div class="followers/subscribers">SUBSCRIBERS</div>
+      <div class="negChange">144 Today</div>
+    </div>     
+  </div>
 
+  <div id="overview">
 
+    <span id="overview-label">Overview - Today</span>
 
-  Overview - Today
+    <div class="overview-item">
+      <div class="overview-item-title">Page Views</div>
+      <img src="./images/icon-facebook.svg" alt="fb-icon" />
+      <div class="itemChange">87</div>
+      <div class="posChange">3%</div>
+    </div>
 
-  Page Views
-  87
-  3%
+    <div class="overview-item">
+      <div class="overview-item-title">Likes</div>
+      <img src="./images/icon-facebook.svg" alt="fb-icon" />
+      <div class="itemChange">52</div>
+      <div class="negChange">2%</div>
+    </div>
+    <div class="overview-item">
+      <div class="overview-item-title">Likes</div>
+      <img src="./images/icon-instagram.svg" alt="ig-icon" />
+      <div class="itemChange">5462</div>
+      <div class="posChange">2257%</div>
+    </div>
+    <div class="overview-item">
+      <div class="overview-item-title">Profile Views</div>
+      <img src="./images/icon-instagram.svg" alt="ig-icon" />
+      <div class="itemChange">52k</div>
+      <div class="posChange">1375%</div>
+    </div>
+    <div class="overview-item">
+      <div class="overview-item-title">Retweets</div>
+      <img src="./images/icon-twitter.svg" alt="twitter-icon">
+      <div class="itemChange">117</div>
+      <div class="posChange">303%</div>
+    </div>  
+    <div class="overview-item">
+      <div class="overview-item-title">Likes</div>
+      <img src="./images/icon-twitter.svg" alt="twitter-icon">
+      <div class="itemChange">507</div>
+      <div class="posChange">553%</div>
+    </div>
+    <div class="overview-item">
+      <div class="overview-item-title">Likes</div>
+      <img src="./images/icon-youtube.svg" alt="yt-icon">
+      <div class="itemChange">107</div>
+      <div class="negChange">19%</div>
+    </div>
+    <div class="overview-item">
+      <div class="overview-item-title">Total Views</div>
+      <img src="./images/icon-youtube.svg" alt="yt-icon">
+      <div class="itemChange">1407</div>
+      <div class="negChange">12%</div>
+    </div>
+  </div>
 
-  Likes
-  52
-  2%
-
-  Likes
-  5462
-  2257%
-
-  Profile Views
-  52k
-  1375%
-
-  Retweets
-  117
-  303%
-
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12%
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
