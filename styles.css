@@ -12,6 +12,10 @@ body{
     width: 90%;
     margin: auto;
 }
+body.light{
+    background-color:white;
+    color: black;
+}
 header{
     padding: 10% 0;
 }
@@ -20,6 +24,10 @@ header{
     border-bottom: solid 1px hsl(228, 34%, 66%);
     padding-bottom: 5%;
     margin-bottom: 5%;
+}
+#headerText.light{
+    border-bottom: solid 1px black;
+    color:black;
 }
 #SMD{
     font-size: 18pt;
@@ -36,7 +44,9 @@ header{
     color:hsl(228, 34%, 66%);
     font-weight: 700;
 }
-
+#headerToggle.light{
+    color: black;
+}
 #toggler{
     height: 25px;
     width: 50px;
@@ -45,6 +55,11 @@ header{
     display:flex;
     flex-flow: row nowrap;
 }
+#toggler.light{
+    justify-content: end;
+    background:none;
+    background-color: darkgray;
+}
 #boggle{
     align-self: center;
     height:70%;
@@ -52,6 +67,9 @@ header{
     border-radius: 100%;
     margin: 0 5%;
     background-color: hsl(230, 17%, 14%);
+}
+#boggle.light{
+    background-color: grey;
 }
 #boggle:hover{
     background-color:white;
@@ -88,6 +106,10 @@ header{
     margin: 5% 0;
     border-radius: 10px;
 }
+.follow-item.light{
+    background-color: hsl(227, 47%, 96%);
+    color: black;
+}
 .platform-handle{
     margin: 5% 0;
     color: hsl(228, 34%, 66%);
@@ -117,6 +139,10 @@ header{
     border-radius: 10px;
     padding: 7%;
     margin-bottom: 5%;
+}
+.overview-item.light{
+    background-color: hsl(227, 47%, 96%);
+    color:black;
 }
 .overview-item-title{
     grid-column-start: 1;

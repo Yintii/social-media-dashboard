@@ -3,17 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-
-  <title>Frontend Mentor | [Challenge Name Here]</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-
-  </style>
 </head>
 <body>
   <header>
@@ -23,9 +15,9 @@
     </div>
     <div id="headerToggle">
       <div id="darkMode">Dark Mode</div>
-      <a id="toggler">
-        <div id="boggle"></div>
-      </a>
+      <div id="toggler">
+        <div id="boggle" onclick="changeTheme()"></div>
+      </div>
     </div>  
   </header>
   
@@ -129,5 +121,6 @@
       <div class="negChange">12%</div>
     </div>
   </div>
+  <script src="change.js"></script>
 </body>
 </html>
