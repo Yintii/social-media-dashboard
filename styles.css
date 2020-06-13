@@ -191,6 +191,9 @@ header{
         padding-bottom: 0%;
         margin-bottom: 0%;
     }
+    #headerText.light{
+        border-bottom: none;
+    }
     #headerToggle{
         display:flex;
         flex-flow: row nowrap;
