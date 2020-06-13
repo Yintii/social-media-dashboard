@@ -174,7 +174,7 @@ header{
     color:hsl(356, 69%, 56%);
 }
 
-@media only screen and (min-width: 376px){
+@media only screen and (min-width: 414px){
     body{
         width: 80%;
     }
