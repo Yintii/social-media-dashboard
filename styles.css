@@ -56,7 +56,7 @@ header{
     flex-flow: row nowrap;
 }
 #toggler.light{
-    justify-content: end;
+    justify-content: flex-end;
     background:none;
     background-color: darkgray;
 }
@@ -70,6 +70,7 @@ header{
 }
 #boggle.light{
     background-color: grey;
+    justify-self: end;
 }
 #boggle:hover{
     background-color:white;
@@ -137,8 +138,8 @@ header{
     grid-template-rows: 45% 9% 45%;
     background-color: hsl(228, 28%, 20%);
     border-radius: 10px;
-    padding: 7%;
-    margin-bottom: 5%;
+    padding: 10%;
+    margin-bottom: 10%;
 }
 .overview-item.light{
     background-color: hsl(227, 47%, 96%);
