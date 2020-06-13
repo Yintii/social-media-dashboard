@@ -36,6 +36,7 @@ header{
     color:hsl(228, 34%, 66%);
     font-weight: 700;
 }
+
 #toggler{
     height: 25px;
     width: 50px;
@@ -51,6 +52,9 @@ header{
     border-radius: 100%;
     margin: 0 5%;
     background-color: hsl(230, 17%, 14%);
+}
+#boggle:hover{
+    background-color:white;
 }
 #followers, #overview{
     display:flex;
@@ -141,4 +145,54 @@ header{
 }
 .negChange{
     color:hsl(356, 69%, 56%);
+}
+
+@media only screen and (min-width: 376px){
+    body{
+        width: 80%;
+    }
+    header{
+        padding: 5% 0;
+        width:100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    #headerText{
+        font-weight: 700;
+        border-bottom: none;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+    }
+    #headerToggle{
+        display:flex;
+        flex-flow: row nowrap;
+        color:hsl(228, 34%, 66%);
+        font-weight: 700;
+        width: 15%;
+    }
+    #followers{
+        flex-flow: row nowrap;
+    }
+    #overview{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        grid-template-rows: 30% 30%;
+        width: 100vw;
+    }
+    .overview-item{
+        margin:5%;
+    }
+    #overview-label{
+        padding: 3% 0;
+    }
+    .follow-item{
+        width:80%;
+        height: 100%;
+        text-align: center;
+        background-color: hsl(228, 28%, 20%);
+        margin: 2%;
+        padding:%;
+        border-radius: 10px;
+    }
 }
