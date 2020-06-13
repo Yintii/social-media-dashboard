@@ -207,11 +207,12 @@ header{
     #overview{
         display: grid;
         grid-template-columns: 20% 20% 20% 20%;
-        grid-template-rows: 30% 30%;
+        grid-template-rows: 50% 50%;
         width: 100vw;
+        margin-bottom:5%;
     }
     .overview-item{
-        margin:5%;
+        margin:1%;
     }
     #overview-label{
         padding: 3% 0;
